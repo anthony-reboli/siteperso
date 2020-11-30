@@ -1,0 +1,52 @@
+/***********************************************************************************************************************************************************
+**********************************************************************************************************************************************************
+*********************************************************************Index********************************************************************************
+***********************************************************************************************************************************************************/
+.contain
+{
+	text-align: center;
+}
+#photomoi
+{
+text-align: center;
+}
+#section_personel
+{
+	background-color: red;
+	height: 830px;
+}
+
+#section_content_para1
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#section_projets
+{
+	background-color: yellow;
+	height: 940px;
+	
+}
+
+
+#section_contact
+{
+	background-color: blue;
+	height: 325px;
+
+}
+
+#presentationperso
+{
+	background-color: pink;
+	height: 325px;
+	width: 325px;
+}
+
+#presentationcompétence
+{
+	background-color: orange;
+	height: 325px;
+	width: 325px;
+}
