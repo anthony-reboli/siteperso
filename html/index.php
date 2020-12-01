@@ -57,11 +57,11 @@
 				<section id="section_projets">
 					<h1>Présentation projets</h1>
 
-<!-- 					<div id="card_projets">
+					<div id="card_projets">
 						<?php
-						// include('../include/slide_projets.php');
+						 include('../include/slide_projets.php');
 						?>
-					</div> -->
+					</div>
 				</section>
 
 				<section id="section_contact">
