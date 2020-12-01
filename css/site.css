@@ -26,7 +26,12 @@ text-align: center;
 #section_projets
 {
 	background-color: yellow;
-	height: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2%;
+    height: 737px;
 	
 }
 
@@ -55,4 +60,11 @@ text-align: center;
 	background-color: orange;
 	height: 325px;
 	width: 325px;
+}
+
+#bodyindex
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }

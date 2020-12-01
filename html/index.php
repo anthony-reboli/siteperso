@@ -6,7 +6,7 @@
 		include('../include/head.php');
 	?>
 </head>
-<body>
+<body id="indexbody">
 	<header>
 	<?php
 		include('../include/barnav.php');
@@ -53,10 +53,11 @@
 							<a href="#section_projets"><img src="../upload/bas.png" height="50px" width="50px"></a>
 						</div>
 				</section>
-
+					
 				<section id="section_projets">
-					<h1>Présentation projets</h1>
-
+					<div id="titreprojets">
+						<h1>Présentation projets</h1>
+					</div>
 					<div id="card_projets">
 						<?php
 						 include('../include/slide_projets.php');
@@ -64,11 +65,13 @@
 					</div>
 				</section>
 
-				<section id="section_contact">
-					<h1>Contact</h1>
-				</section>
 			</div>
 		
 		</main>
+	<footer>
+		<?php
+		include('../include/footer.php');
+		 ?>
+	</footer>
 </body>
 </html>
